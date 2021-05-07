@@ -1,0 +1,664 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+}
+
+/* Header section */ 
+
+header {
+    background-color: #EAC926;
+    padding-bottom: 15px;
+}
+
+.nav-cabecera {
+    display: flex;
+    padding: 50px 10px 0 10px;
+    flex-wrap: wrap;
+}
+
+.mercado-liebre-logo {
+    display: flex;
+    width: 40%;
+    padding: 0 15px 0 8px;
+}
+
+.mercado-liebre-logo a {
+    width: 100%;
+    display: flex;
+}
+
+header .promocion {
+    text-align: center;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-busqueda {
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+
+.formulario-busqueda input {
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+
+.barra-busqueda {
+    display: flex;
+    width: 50%;
+}
+
+.burger-menu {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1259c3;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 17px;
+    height: 17px;
+    font-size: 20px;
+}
+
+.burger-menu i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-menu {
+    display: none;
+}
+
+.contenedor-menu li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* --------------Main section----------------- */ 
+
+.caja-banner {
+    margin-bottom: -10px;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+main section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+.caja-articulo {
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    transition: all 0.4s;
+}
+
+.caja-articulo:hover {
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 0px 18px rgb(0 130 0);
+}
+
+.caja-producto {
+    text-align: left;
+    border-top: solid 2px #ebebeb;
+    margin-top: 10px;    
+}
+
+.icono-verde {
+    color: #39b54a;
+    padding-right: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icono-verde i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    background-color: white;  
+}
+
+section .titular {
+    font-size: 24px;
+    padding:10px;
+}
+
+.caja-precio-descuento-descripcion {
+    display: flex; 
+}
+
+.precio {
+    font-size: 18px;
+    flex-grow: 0.30;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #03264C;
+    flex-grow: 0.70;
+    justify-content: flex-start;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+/* --------------Footer section----------------- */ 
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.contenedor-info-footer {
+    display: block;
+    margin-bottom: 30px;
+}
+
+footer h3 {
+    font-weight: 1000;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.copyright h3 {
+    text-align: left;
+}
+
+.info-footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    transition: all 0.4s;
+}
+
+.info-footer:hover i {
+    color: #39b54a;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.info-footer {
+    width: 100%;    
+}
+
+.info-footer p {
+    line-height: 1.8;    
+}
+
+
+
+/* --------------Section: register.css----------------- */ 
+
+.seccion-formulario {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    background-color: #ebebeb;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.seccion-formulario form {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    }
+    
+.contenedor-formulario h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+        }
+
+.contenedor-formulario input {
+    margin-top: 20px;
+    border: none;
+}
+
+.contenedor-formulario input:focus {
+    color: #1259c3;
+    font-weight: bold;
+}
+
+.contenedor-formulario label {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.contenedor-radio{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.contenedor-radio input {
+    margin-left: 10px;
+}
+
+.contenedor-intereses {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contenedor-botones{
+    display: inline-grid;
+    padding-bottom: 20px;
+}
+
+.boton-formulario {
+    width: 50%;
+    height: 30px;
+    margin: 20px auto -10px auto;
+    border-radius: 10px;
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+} 
+
+.boton-formulario:hover {
+    width: 50.5%;
+    height: 30px;
+    margin: 20px auto -10px auto;
+    border-radius: 10px;
+    background-color: #1259c3;
+    color: white;
+    border: solid 1px black;
+    box-shadow: 0px 0px 5px rgb(100 100 100);
+} 
+
+.input-file {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.3s;    
+}
+
+.input-file:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 10px;    
+}
+
+.input-file input {
+    display: none;
+}
+
+.contenedor-foto {
+    margin-bottom: 20px;
+}
+
+#boton-return {
+    background-color: orange;
+}
+
+#boton-return:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+/* --------------Section: login.css----------------- */ 
+
+
+.boton-formulario a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 361px){
+    /* Tablets */
+    
+    .nav-cabecera {
+        display: flex;
+        padding: 50px 10px 40px 10px;
+        flex-wrap: nowrap;
+    }
+    
+    .mercado-liebre-logo {
+        display: flex;
+        width: 30%;
+        padding: 0 15px 0 8px;
+    }
+
+    header .promocion {
+        margin: 15px 0px 15px 15px;
+        width: 30%;
+    }
+    
+    .promocion h2 {
+        font-size: 14px;    
+    }
+    
+    .barra-busqueda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+        
+    .descripcion {
+        font-size: 16px;
+        display: block;
+    }
+
+    .caja-articulo {
+        background-color: white;
+        margin: 15px;
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .contenedor-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .contenedor-menu ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .contenedor-menu li {
+        padding-right: 12px;
+    }
+
+    .contenedor-izq-menu {
+        display: flex;
+    }
+
+    .contenedor-der-menu {
+        display: flex;
+    }
+
+    .burger-menu {
+        margin: auto;
+        background-color: #1259c3;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+        width: 17px;
+        height: 17px;
+        font-size: 20px;
+        display: none;
+        }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article {
+        display: flex;
+        width: 50%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    section .titular {
+        width: 100%;
+    }
+
+    .contenedor-info-footer {
+        margin-bottom: 30px;
+    }
+
+
+
+/* --------------Section: register.css----------------- */ 
+
+    .contenedor-botones{
+        display:flex;
+        padding: 0 20px 20px 20px;
+    }
+    
+    .boton-formulario {
+        width: 30%;
+        height: 30px;
+        margin: 20px auto -10px auto;
+        border-radius: 10px;
+        background-color: #1259c3;
+        color: white;
+        transition: all 0.3s;
+    } 
+    
+    .boton-formulario:hover {
+        width: 30.5%;
+        height: 30px;
+        margin: 20px auto -10px auto;
+        border-radius: 10px;
+        background-color: #1259c3;
+        color: white;
+        border: solid 1px black;
+        box-shadow: 0px 0px 5px rgb(100 100 100);
+    } 
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px){
+    /* Laptop */
+
+    .promocion h2 {
+        font-size: 15px;
+    }
+
+    .contenedor-menu ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;    
+    }
+
+    .contenedor-menu li {
+        padding-right: 30px;
+        font-size: 18px;
+    }
+
+    .contenedor-menu li a{
+        transition: all 0.2s;
+    }
+
+
+    .contenedor-menu li a:hover{
+        color: green;
+    }
+
+    .burger-menu {
+        margin: auto;
+        background-color: #1259c3;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+        width: 17px;
+        height: 17px;
+        font-size: 20px;
+        display: none;    
+    }
+
+    .titular {
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article {
+        display: flex;
+        width: 25%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .caja-articulo {
+        background-color: white;
+        margin: 15px;
+        box-shadow : 0px 0px 10px rgb(100, 100, 100);
+        transition: all 0.4s;
+    }
+
+    .caja-articulo:hover {
+        background-color: white;
+        margin: 15px;
+        box-shadow : 0px 0px 40px #39b54a;
+        padding-bottom: 10px;
+    }
+
+    .caja-articulo .descripcion {
+        font-size: 16px;
+        display: block;
+        transition: all 0.4s;
+        transform: scale(0, 0);
+    }
+
+    .caja-articulo:hover .descripcion {
+        font-size: 16px;
+        transform: scale(1, 1);
+    }
+
+    .icono-verde i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        transform: rotate(0deg);
+        transition: all 0.4s;      
+    }
+
+    .caja-articulo:hover .icono-verde i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        transform: rotate(-90deg);      
+    }
+
+    .contenedor-info-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .info-footer {
+        width: 30%;    
+    }
+
+
+
+/* --------------Section: register.css----------------- */ 
+
+    .contenedor-botones{
+        display:flex;
+        padding: 0 20px 20px 20px;    
+    }
+
+
+    .boton-formulario {
+        width: 30%;
+        height: 30px;
+        margin: 20px auto -10px auto;
+        border-radius: 10px;
+        background-color: #1259c3;
+        color: white;
+        transition: all 0.3s;
+    } 
+    
+    .boton-formulario:hover {
+        width: 30.5%;
+        height: 30px;
+        margin: 20px auto -10px auto;
+        border-radius: 10px;
+        background-color: #0022AA;
+        color: white;
+        border: solid 1px black;
+        box-shadow: 0px 0px 5px rgb(100 100 100);
+    } 
+    }
